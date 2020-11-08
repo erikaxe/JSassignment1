@@ -64,12 +64,16 @@ input{
     height: 40px;
 }
 
-/* Card */
+/* "Global Card" */
 
 /* .card-placeholder{
     background-color: #ffffff;
     width: 200px;
 } */
+
+.picture{
+    border-radius: 6px 6px 0px 0px;
+}
 
 .card-top{
     width: 300px;
@@ -87,4 +91,22 @@ input{
     background-color: white;
     border: solid 1px black;
     border-radius: 0px 0px 6px 6px;
+    text-align: left;
+}
+
+h6{
+    margin-top: 13px;
+    margin-left: 22px;
+}
+
+.name-name{
+    background-color: yellow;
+}
+
+.course-name{
+    background-color: red;
+}
+
+.author-name{
+    background-color: green;
 }
