@@ -1,0 +1,1 @@
+const customInput = document.querySelector('.customer-name')
