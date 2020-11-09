@@ -85,6 +85,8 @@ input{
 }
 
 .card-info{
+    /* display: flex;
+    flex-flow: column; */
     border-top: 1px solid black;
     width: 300px;
     height: 110px;
@@ -95,12 +97,26 @@ input{
 }
 
 h6{
-    margin-top: 13px;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 4px;
+    display: table;
+    margin-top: 9px;
     margin-left: 22px;
 }
 
+.name-cont, .course-cont, .author-cont{
+    display: flex;
+}
+
 .name-name{
+    color: #000000;
     background-color: yellow;
+}
+
+p{
+    margin-left: 20px;
+    margin-top: 9px;
 }
 
 .course-name{
