@@ -10,17 +10,19 @@
 <body>
     <div class="container">
         <div class="submit-container">
-            <h1 class="header">Get A Free Course</h1> <!-- OBS TA MED FORM ELEMENT (3. Use Form element to wrap around the elments. 4. Use DOM Selectors and Event Listeners.) + Glöm inte github repon -->
-                <div class="name-input">   
-                    <i class="fas fa-user icon"></i><input type="text" class="customer-name" placeholder="Customer Name">
-                </div>
-                <div class="course-input">
-                <i class="fas fa-book icon"></i><input type="text" class="course" placeholder="Course">
-                </div>
-                <div class="author-input">
-                <i class="fas fa-user-circle icon"></i><input type="text" class="author" placeholder="Author">
-                </div>
-            <button class="submit-btn">SUBMIT</button>
+            <h1 class="header">Get A Free Course</h1> <!-- 4. Use DOM Selectors and Event Listeners.) + Glöm inte github repon -->
+                <form class="form">  
+                    <div class="name-input">   
+                    <i class="fas fa-user icon"></i><input type="text" class="customer-name input input-name" placeholder="Customer Name (1 to 16 characters)" maxlength="16">
+                    </div>
+                    <div class="course-input">
+                    <i class="fas fa-book icon"></i><input type="text" class="course input input-course" placeholder="Course (1 to 16 characters)" maxlength="16">
+                    </div>
+                    <div class="author-input">
+                    <i class="fas fa-user-circle icon"></i><input type="text" class="author input input-author" placeholder="Author (1 to 16 characters)" maxlength="16">
+                    </div>
+                    <button class="submit-btn">SUBMIT</button>
+                </form>
         </div>
         <div class="card-section">
             <div class="card-placeholder">
@@ -30,10 +32,10 @@
                         <h6 class="name-name">Name:</h6><p class="card-input-name">Test Name</p>
                     </div>
                     <div class="course-cont">
-                        <h6 class="course-name">Course:</h6></h6><p class="card-input-course">Test Course</p>
+                        <h6 class="course-name">Course:</h6><p class="card-input-course">Test Course</p>
                     </div>
                     <div class="author-cont">
-                        <h6 class="author-name">Author:</h6></h6><p class="card-input-Author">Test Author</p>
+                        <h6 class="author-name">Author:</h6><p class="card-input-Author">Test Author</p>
                     </div>
                 </div>
             </div>
