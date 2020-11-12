@@ -137,6 +137,13 @@ p{
     background-color: green;
 }
 
+/* button OFF (FUNKAR EJ ATM) */
+.submit-btn:disabled{
+    opacity: 20%;
+    cursor: default;
+}
+
+
 /* Media querys */
 
 @media(max-width: 940px){
