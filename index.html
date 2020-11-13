@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="submit-container">
-            <h1 class="header">Get A Free Course</h1> <!-- 4. Use DOM Selectors and Event Listeners.) + Glöm inte github repon -->
+            <h1 class="header">Get A Free Course</h1>
                 <form class="form">  
                     <div class="name-input">   
                     <i class="fas fa-user icon"></i><input type="text" class="customer-name input input-name" placeholder="Customer Name (1 to 16 characters)" maxlength="16">
@@ -21,7 +21,8 @@
                     <div class="author-input">
                     <i class="fas fa-user-circle icon"></i><input type="text" class="author input input-author" placeholder="Author (1 to 16 characters)" maxlength="16">
                     </div>
-                    <button class="submit-btn">SUBMIT</button>
+                    <button class="submit-btn" id="submitBtn" disabled="disabled"  >SUBMIT</button>
+                    <div class="spinner"></div>
                 </form>
         </div>
         <div class="card-section">
